@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Capstone-DivergentThinkers/static/css/main.2a821922.css",
-    "main.js": "/Capstone-DivergentThinkers/static/js/main.0263fe61.js",
+    "main.css": "/Capstone-DivergentThinkers/static/css/main.5acfdc23.css",
+    "main.js": "/Capstone-DivergentThinkers/static/js/main.7913663e.js",
     "static/js/787.a3f4064b.chunk.js": "/Capstone-DivergentThinkers/static/js/787.a3f4064b.chunk.js",
+    "static/media/gmas.png": "/Capstone-DivergentThinkers/static/media/gmas.c893c128494c1f23fa2e.png",
     "static/media/ng.png": "/Capstone-DivergentThinkers/static/media/ng.50e65d69833898a9ff88.png",
     "static/media/yl.jpg": "/Capstone-DivergentThinkers/static/media/yl.9924206b26c5d2d9c248.jpg",
     "static/media/yen.JPG": "/Capstone-DivergentThinkers/static/media/yen.32c871bec77525fedadd.JPG",
     "static/media/sp.png": "/Capstone-DivergentThinkers/static/media/sp.de8986e030c4dbb38c01.png",
     "static/media/img1.png": "/Capstone-DivergentThinkers/static/media/img1.1fc06d318914f11e8107.png",
+    "static/media/fam.png": "/Capstone-DivergentThinkers/static/media/fam.1795e35f7c1422187c89.png",
+    "static/media/bulb.png": "/Capstone-DivergentThinkers/static/media/bulb.ac87c5598bda777931b3.png",
+    "static/media/dt_logo.png": "/Capstone-DivergentThinkers/static/media/dt_logo.06bbd032e5d938a87cde.png",
+    "static/media/data_vis.png": "/Capstone-DivergentThinkers/static/media/data_vis.17bced33b76852f0da76.png",
     "static/media/logo.svg": "/Capstone-DivergentThinkers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Capstone-DivergentThinkers/index.html",
-    "main.2a821922.css.map": "/Capstone-DivergentThinkers/static/css/main.2a821922.css.map",
-    "main.0263fe61.js.map": "/Capstone-DivergentThinkers/static/js/main.0263fe61.js.map",
+    "main.5acfdc23.css.map": "/Capstone-DivergentThinkers/static/css/main.5acfdc23.css.map",
+    "main.7913663e.js.map": "/Capstone-DivergentThinkers/static/js/main.7913663e.js.map",
     "787.a3f4064b.chunk.js.map": "/Capstone-DivergentThinkers/static/js/787.a3f4064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a821922.css",
-    "static/js/main.0263fe61.js"
+    "static/css/main.5acfdc23.css",
+    "static/js/main.7913663e.js"
   ]
 }
