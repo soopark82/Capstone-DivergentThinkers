@@ -45,7 +45,17 @@ function App() {
       </div>
 
       <div className="features">
-        <p className="subheading">Features</p>
+        <h1 className="heading">Features</h1>
+        <div className="features-list">
+          <h2>Feature #1: How big of a problem is this?</h2>
+          <p>We translate numbers into stories so that the user can dive deeper into the impacts of gun violence, and contextualize the purpose of the project and site.</p>
+          <h2>Feature #2: How can you protect your family?</h2>
+          <p>This is a how-to guide showcasing different methods of properly storing guns so that the user can keep guns away and protected from their child.
+          </p>
+          <h2>Feature #3: Gun Laws</h2>
+          <p>We provide the tools to educate the users and their families and stay up to date with the current laws. Whether they are traveling, visiting or moving to a new state, we provide the most up to date information. Know the laws, know the locks and you can help to bring the numbers down. 
+          </p>
+        </div>
         
       </div>
 
@@ -64,7 +74,7 @@ function App() {
           <div className="profile">
             <img src={yl}/>
             <p className="name">Yeh-Sun Lee</p>
-            <p>UX/UI Designer and Researcher</p>
+            <p>UX/UI Designer and Front-End Dev</p>
           </div>
 
           <div className="profile">
