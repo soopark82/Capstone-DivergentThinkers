@@ -11,13 +11,14 @@ import data_vis from './data_vis.png';
 import bulb from './bulb.png';
 import fam from './fam.png';
 import dt_logo from './dt_logo.png';
+import ischool from './ischool.png';
 
 
 function App() {
   return (
     <div className="App">
       <div className="title">
-        <img src={dt_logo}/>
+        <img src={dt_logo} alt="Divergent Thinkers logo"/>
         <h1>Translating Gun Violence Research Into Action</h1>
       </div>
 
@@ -31,7 +32,7 @@ function App() {
               create a safer world for all grandchildren and raising generations. They are committed to diversity 
               and inclusiveness and acknowledge the intergenerational nature of the gun violence prevention movement.
           </p>
-          <img className="gmas-img" src={gmas}/>
+          <img className="gmas-img" src={gmas} alt="Grandmothers Against Gun Violence Foundation group photo"/>
         </div>
       </div>
 
@@ -54,11 +55,11 @@ function App() {
             <p>We translate numbers into stories so that the user can dive deeper into the impacts of gun violence, 
             and contextualize the purpose of the project and site.</p>
           </div>
-          <img src={data_vis}/>
+          <img src={data_vis} alt="Bar Graph"/>
         </div>
 
         <div className='feature-item'>
-          <img src={fam}/>
+          <img src={fam} alt="Outline of family of three"/>
           <div>
             <h3>FEATURE 2: How can you protect your family?</h3>
             <p>This is a how-to guide showcasing different methods of properly storing guns so that the user can keep 
@@ -73,7 +74,7 @@ function App() {
             Whether they are traveling, visiting or moving to a new state, we provide the most up to date information. Know the laws, 
             know the locks and you can help to bring the numbers down. </p>
           </div>
-          <img src={bulb}/>
+          <img src={bulb} alt="Blinking light bulb"/>
 
         </div>
         
@@ -84,7 +85,7 @@ function App() {
         {/* <iframe width="420" height="315"
           src="https://youtu.be/xfgExWfx0lQ">
         </iframe> */}
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/xfgExWfx0lQ" title="YouTube video player" frameborder="0" 
+        <iframe width="672" height="378" src="https://www.youtube.com/embed/-4FV6XP6m1c" title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
 
@@ -95,33 +96,44 @@ function App() {
         <h2>The Team</h2>
         <div className="team-members">
           <div className="profile">
-            <img src={ng}/>
+            <img src={ng} alt="Naisha Gandhi headshot"/>
             <p className="name">Naisha Gandhi</p>
             <p className='description'>Project Manager and Researcher</p>
           </div>
 
           <div className="profile">
-            <img src={yl}/>
+            <img src={yl} alt="Yeh-Sun Lee headshot"/>
             <p className="name">Yeh-Sun Lee</p>
             <p className='description'>UX/UI Designer and Front-End Dev</p>
           </div>
 
           <div className="profile">
-            <img src={sp}/>
+            <img src={sp} alt="Soo Park headshot"/>
             <p className="name">Soo Park</p>
             <p className='description'> Web Developer and Researcher</p>
           </div>
 
           <div className="profile">
-            <img src={yen}/>
+            <img src={yen} alt="Yenni Lee headshot"/>
             <p className="name">Yenni Lee</p>
             <p className='description'>Front-end Dev and Data Scientist</p>
           </div>
         </div>
       </div>
 
-      
 
+      <div className='project-status-div'>
+        <h2 className='h2-status'>Project Status</h2>
+        <p>University of Washington iSchool Spring 2022 Capstone</p>
+        <p>This project will be handed off to the Grandmothers Against Gun Violence Foundation for further development
+          and deployment post Capstone presentations in June. The foundation can be contacted about this project/page via email at gagvfoundation@gmail.com.
+        </p>
+      </div>
+
+      <div className="about-footer">
+        <img className="ischool-logo" src={ischool} alt="Logo of iSchool at UW"/>
+        <p>copyright © 2021 divergent thinkers</p>
+      </div>
 
     </div>
   );
