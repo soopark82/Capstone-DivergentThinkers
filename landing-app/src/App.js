@@ -132,7 +132,7 @@ function App() {
 
       <div className="about-footer">
         <img className="ischool-logo" src={ischool} alt="Logo of iSchool at UW"/>
-        <p>copyright © 2021 divergent thinkers</p>
+        <p>copyright © 2022 divergent thinkers</p>
       </div>
 
     </div>
