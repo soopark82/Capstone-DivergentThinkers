@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Capstone-DivergentThinkers/static/css/main.afa9054b.css",
+    "main.css": "/Capstone-DivergentThinkers/static/css/main.89f3712a.css",
     "main.js": "/Capstone-DivergentThinkers/static/js/main.ebba5e9e.js",
     "static/js/787.a3f4064b.chunk.js": "/Capstone-DivergentThinkers/static/js/787.a3f4064b.chunk.js",
     "static/media/gmas.png": "/Capstone-DivergentThinkers/static/media/gmas.c893c128494c1f23fa2e.png",
@@ -15,12 +15,12 @@
     "static/media/data_vis.png": "/Capstone-DivergentThinkers/static/media/data_vis.17bced33b76852f0da76.png",
     "static/media/logo.svg": "/Capstone-DivergentThinkers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Capstone-DivergentThinkers/index.html",
-    "main.afa9054b.css.map": "/Capstone-DivergentThinkers/static/css/main.afa9054b.css.map",
+    "main.89f3712a.css.map": "/Capstone-DivergentThinkers/static/css/main.89f3712a.css.map",
     "main.ebba5e9e.js.map": "/Capstone-DivergentThinkers/static/js/main.ebba5e9e.js.map",
     "787.a3f4064b.chunk.js.map": "/Capstone-DivergentThinkers/static/js/787.a3f4064b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afa9054b.css",
+    "static/css/main.89f3712a.css",
     "static/js/main.ebba5e9e.js"
   ]
 }
