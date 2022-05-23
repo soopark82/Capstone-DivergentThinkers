@@ -14,11 +14,6 @@ code {
     monospace;
 }
 
-/* .title > p {
-  font-size: 48px;
-  font-weight: bold;
-} */
-
 .gmas-img {
   max-width: 95%;
   height: auto;
@@ -287,10 +282,12 @@ iframe {
 }
 /* } */
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 800px) {
   
   h1 {
     font-size: 25px;
+    margin: 0;
+    padding: 0;
   }
 
   h2 {
@@ -303,26 +300,27 @@ iframe {
   }
 
   .sponsor, .project, .features, .demo {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 0.8rem 2rem 0.8rem;
   }
 
   .feature-item {
     display: block;
+    margin: 0;
   }
 
   .feature-item img{
-    /* height: 10rem;
-    width: auto;
-    padding: 2rem; */
     display: none;
   }
 
   .feature-item h3 {
+    text-align: left;
     font-size: 16px;
   }
 
+
   .feature-item p {
     font-size: 13px;
+    margin-bottom: 30px;
   }
 
   .team {
@@ -347,11 +345,13 @@ iframe {
   }
 
   .project-status-div {
-    padding: 1rem 1rem 5rem 1rem;
+    padding: 1rem 15px 5rem 15px;
   }
 
   .project-status-div p {
     font-size: 12px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .ischool-logo {
@@ -361,6 +361,7 @@ iframe {
   .about-footer p {
     font-size: 10px;
   }
+
 
 
 }
