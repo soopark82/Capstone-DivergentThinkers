@@ -43,14 +43,6 @@ code {
   padding: 5rem 10rem 8rem 10rem;
 }
 
-.sponsor-content {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: center;
-  align-items: center; */
-}
-
 .content-p {
   text-align: left;
   font-family: 'Raleway', sans-serif;
@@ -92,15 +84,12 @@ code {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  padding-left: 5px;
 }
 
 .heading {
   margin-bottom: 2rem;
   text-align: left;
-}
-
-.profile {
-  padding-left: 5px;
 }
 
 h1 {
@@ -124,14 +113,6 @@ h2 {
   margin-bottom: 3rem;
 }
 
-/* .feature-item h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-align: left;
-  letter-spacing: 4px;
-  font-size: 23px;
-} */
-
 .title {
   background-color: #ECF3D6;
   padding-top: 5em;
@@ -142,12 +123,6 @@ h2 {
   text-align: center;
   padding-bottom: 3rem;
 }
-
-/* .feature-p-one {
-  text-align: left;
-  margin-right: 45%;
-  line-height: 35px;
-} */
 
 .feature-item {
   display: flex;
@@ -183,7 +158,6 @@ h2 {
 .demo h2 {
   text-align: center;
   margin-top: 3rem;
-  /* margin-bottom: 3rem; */
 }
 
 .name {
@@ -245,7 +219,7 @@ h2 {
 
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
   .top-header {
     font-size: 4rem;
   }
@@ -311,5 +285,82 @@ iframe {
   line-height: 30px;
   width: 50%;
 }
+/* } */
+
+@media only screen and (max-width: 870px) {
+  
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .content-p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .sponsor, .project, .features, .demo {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .feature-item {
+    display: block;
+  }
+
+  .feature-item img{
+    /* height: 10rem;
+    width: auto;
+    padding: 2rem; */
+    display: none;
+  }
+
+  .feature-item h3 {
+    font-size: 16px;
+  }
+
+  .feature-item p {
+    font-size: 13px;
+  }
+
+  .team {
+    padding: 1rem 2rem 6rem 2rem;
+  }
+
+  .team-members > div > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .team-members {
+    flex-direction: column;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .project-status-div {
+    padding: 1rem 1rem 5rem 1rem;
+  }
+
+  .project-status-div p {
+    font-size: 12px;
+  }
+
+  .ischool-logo {
+    width: 10rem;
+  }
+
+  .about-footer p {
+    font-size: 10px;
+  }
+
 
 }
