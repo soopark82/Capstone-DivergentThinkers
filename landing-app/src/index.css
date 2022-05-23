@@ -262,11 +262,7 @@ h2 {
   padding: 1rem;
 }
 
-iframe {
-  width: 300px;
-  height: auto;
-  padding: 1rem;
-}
+
 
 .about-team {
   display: flex;
@@ -287,7 +283,7 @@ iframe {
   h1 {
     font-size: 25px;
     margin: 0;
-    padding: 0;
+    padding: 0.5rem;
   }
 
   h2 {
@@ -300,7 +296,7 @@ iframe {
   }
 
   .sponsor, .project, .features, .demo {
-    padding: 1rem 0.8rem 2rem 0.8rem;
+    padding: 1rem 1.5rem 2rem 1.5rem;
   }
 
   .feature-item {
@@ -362,6 +358,12 @@ iframe {
     font-size: 10px;
   }
 
+  iframe {
+    width: 300px;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+  }
 
 
 }

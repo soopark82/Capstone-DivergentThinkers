@@ -85,8 +85,11 @@ function App() {
         {/* <iframe width="420" height="315"
           src="https://youtu.be/xfgExWfx0lQ">
         </iframe> */}
-        <iframe width="672" height="378" src="https://www.youtube.com/embed/-4FV6XP6m1c" title="YouTube video player" frameborder="0" 
+        {/* <iframe width="672" height="378" src="https://www.youtube.com/embed/-4FV6XP6m1c" title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe> */}
+        <iframe width="672" height="378" src="https://www.youtube.com/embed/-4FV6XP6m1c" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
 
 
